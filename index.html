@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link CSS Bootstrap -->
+
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <!-- Link Font -->
+
+    <!-- icon Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- icon Link -->
+</head>
+
+<body>
+    <div class="all-content">
+
+
+
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg sticky-top shadow" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="logo"><img src="img/logo_putih.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item pt-3 pt-lg-0">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item pt-3 pt-lg-0">
+                            <a class="nav-link" href="/product">Product</a>
+                        </li>
+                        <li class="nav-item pt-3 pt-lg-0">
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                        <li class="nav-item pt-3 pt-lg-0">
+                            <a class="nav-link" href="/developer">Developer</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex pt-3 pt-lg-0">
+                        <input class="form-control me-2" type="search" placeholder="search...." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+
+
+
+
+        <!-- Home section start-->
+        <section id="home">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/hero1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Start Your Day With a Fresh Coffee</h5>
+                            <p>At Coffee Toffee, we are committed to providing a special coffee experience for true
+                                coffee lovers.</p>
+                            <button id="btn"><a href="/product">Shop Now</a></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hero2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Where Every Cup Tells a Story</h5>
+                            <p>The uniqueness of each cup of coffee as its own story, inviting visitors to delve into
+                                the essence and uniqueness of coffee.</p>
+                            <button id="btn"><a href="/product">Shop Now</a></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hero3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>A Symphony of Aromas, A Taste of Perfection</h5>
+                            <p>Creating an image of the harmony of aromas and perfect deliciousness of coffee.</p>
+                            <button id="btn"><a href="/product">Shop Now</a></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hero4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Crafted Elegance, Roasted Passion</h5>
+                            <p>Reflecting craftsmanship and elegance in serving coffee, while offering visitors the
+                                opportunity to experience happiness.</p>
+                            <button id="btn"><a href="/product">Shop Now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+        <!-- Home section end-->
+
+
+
+
+        <!-- Our Menu Section start -->
+        <section id="our_menu">
+            <p class="p-awal">from the best indonesian specialty coffee to heart-warming foods</p>
+            <h3 class="judul">our menu</h3>
+            <div class="garis"></div>
+
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/our_menu_Biji_Kopi.png" class="card-img-top rounded" alt="...">
+                            <div class="card-body">
+                                <h5>OUR BEANS</h5>
+                                <p class="card-text">Specialty Grade Arabica coffee beans and Fine Robusta from the top
+                                    9 plantations in Indonesia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/our_menu_Coffee_based_drink.png" class="card-img-top rounded" alt="...">
+                            <div class="card-body">
+                                <h5>COFFEE-BASED DRINKS</h5>
+                                <p class="card-text">From traditional espresso-based drinks to various modern coffee
+                                    concoctions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/our_menu_Non_Coffee_Drinks.png" class="card-img-top rounded" alt="...">
+                            <div class="card-body">
+                                <h5>NON-COFFEE</h5>
+                                <p class="card-text">We also have a non-coffee menu for those who prefer options other
+                                    than coffee and for children.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/our_menu_Food_n_Snack.png" class="card-img-top rounded" alt="...">
+                            <div class="card-body">
+                                <h5>FOOD & SNACK</h5>
+                                <p class="card-text">A variety of snacks to main courses, all ready to accompany your
+                                    cup of coffee.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Menu Section end -->
+
+
+
+
+        <!-- Our Story Section start -->
+        <section id="our_story">
+            <div class="container">
+                <h3 class="judul">OUR STORY</h3>
+                <div class="garis"></div>
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6 col-md-12">
+                        <p>Starting from a small outlet in front of a convenience store in Surabaya, we have grown into
+                            a national chain of coffee shops with branches spread across many cities in Indonesia.</p>
+                        <p>In 2012, we pioneered and spearheaded the movement to take pride in Indonesian coffee with
+                            the campaign 'Yes I Drink Indonesian Coffee.</p>
+                        <p>In 2017, we received the Indonesia Franchise Award from the Ministry of Trade as the National
+                            Winner. This award was presented directly by the President of the Republic of Indonesia,
+                            Joko Widodo.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img src="img/our_story_img.png" alt="" class="img_ourstory" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Our Story Section end -->
+
+
+
+
+        <!-- Take US Section start -->
+        <section id="take_us">
+            <p class="p-awal">take us with you</p>
+            <h3 class="judul">take us through your daily life</h3>
+            <div class="garis"></div>
+
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/Icon-CATERING.png" class="card-img-top" alt="..."
+                                style="width: 90px; margin: auto;">
+                            <div class="card-body">
+                                <h5>CATERING</h5>
+                                <p class="card-text">You can bring Coffee Toffee to your office events or personal
+                                    celebrations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/Icon-COFFEEPACK.png" class="card-img-top" alt="..."
+                                style="width: 90px; margin: auto;">
+                            <div class="card-body">
+                                <h5>COFFEE PACK</h5>
+                                <p class="card-text">In a 200g package, you can enjoy Coffee Toffee's specialty Arabica
+                                    coffee at home.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/Icon-MERCHANDISE.png" class="card-img-top" alt="..."
+                                style="width: 90px; margin: auto;">
+                            <div class="card-body">
+                                <h5>MERCHANDISE</h5>
+                                <p class="card-text">Various merchandise options to showcase your love (or obsession)
+                                    for the coffee world.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-lg-0  mt-md-4 mt-sm-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="img/Icon-HAMPERS.png" class="card-img-top" alt="..."
+                                style="width: 90px; margin: auto;">
+                            <div class="card-body">
+                                <h5>HAMPERS</h5>
+                                <p class="card-text">Send a box containing coffee beans, their favorite drink, and a
+                                    coffee mug to your special someone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Take US Section end -->
+
+
+
+
+
+
+        <!-- Gallery Section Start -->
+        <section id="gallery">
+
+            <p class="p-awal">moments</p>
+            <h3 class="judul">gallery</h3>
+            <div class="garis"></div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-12  mb-lg-0">
+                    <img src="img/gallery-pendek1.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="img/gallery-panjang1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+
+                <div class="col-lg-4 mb-lg-0">
+                    <img src="img/gallery-panjang2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="img/gallery-pendek2.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+
+                <div class="col-lg-4 mb-lg-0">
+                    <img src="img/gallery-pendek3.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+
+                    <img src="img/gallery-panjang3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                </div>
+            </div>
+
+        </section>
+        <!-- Gallery Section End -->
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer Section Start -->
+        <section id="footer">
+
+            <div class="container-fluid px-0">
+
+                <footer class="text-white text-center text-lg-start bg-dark">
+                    <!-- Grid container -->
+                    <div class="container p-4">
+                        <!--Grid row-->
+                        <div class="row mt-4 g-4">
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                                <h5 class="text-uppercase mb-4">Company</h5>
+                                <img src="img/logo_putih.png" alt="" width="50%">
+
+                                <div class="mt-4">
+                                    <!-- Facebook -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg rounded-circle"
+                                        href="https://www.facebook.com/coffeetoffee/?eid=ARAEtp5zVjJnO0WI3AxY6SZQLA5VdCDxZxxobZQEe4ErD9mybc-9t-lw2i1AAS4sz1X47JRpzqQ9ge5t"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <!-- instagram -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg rounded-circle"
+                                        href="https://www.instagram.com/coffeetoffeeidn/"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <!-- Tiktok -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg rounded-circle"
+                                        href="https://www.tiktok.com/@coffeetoffeeidn?_d=secCgYIASAHKAESMgowxLLOBbgas%2FMgGsvgaHPVokaQj%2Bt5L77KSP9JUV5f2z72Ve1ZlRag1%2BLmtwV2KXAJGgA%3D&language=en&sec_uid=MS4wLjABAAAAC7uuiSiUb0czQxVBn5hvGSC7sXNmBh_wRDBtx3qq0bTloNaN3gEC-QPtyM4ntxA4&sec_user_id=MS4wLjABAAAA3kWPu_ZOyM3z8XOsnCFg1WE87iM6et92fkHUhlK-YrimPDzMAEzKnTtGTdgx3-mS&share_app_name=musically&share_author_id=6771066802023465986&share_link_id=e017c496-d768-460d-b879-b5687aff55b5&timestamp=1609820232&u_code=demkh9h44id4gi&user_id=6881099175019971585&utm_campaign=client_share&utm_medium=android&utm_source=copy&_r=1"><i
+                                            class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ps-lg-5">
+                                <h5 class="text-uppercase mb-4 pb-1">Address</h5>
+
+                                <ul class="fa-ul" style="margin-left: 1.65em;">
+                                    <li class="mb-3">
+                                        <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">
+                                            Jln. Klampis Aji II No. 8, Surabaya, 60117</span>
+                                    </li>
+                                    <li class="mb-3">
+                                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                            class="ms-2">coffeetoffeeidn@gmail.com</span>
+                                    </li>
+                                    <li class="mb-3">
+                                        <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">(+62
+                                            31) 591 81004</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+                                <table class="table text-center text-white">
+                                    <tbody class="fw-normal">
+                                        <tr>
+                                            <td>Mon - Thu:</td>
+                                            <td>8am - 9pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fri - Sat:</td>
+                                            <td>8am - 1am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sunday:</td>
+                                            <td>9am - 10pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                    <!-- Grid container -->
+
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                        © 2024 Copyright:
+                        <a class="text-white" href="/developer">bayuartana</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+
+            </div>
+        </section>
+        <!-- Footer Section end -->
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Link JS Bootsrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Link JS Bootsrap-->
+</body>
+
+</html>
